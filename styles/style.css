@@ -15,6 +15,10 @@ body{
     font-family: var(--paragraph-font);
 }
 
+img {
+    max-width: 100%;
+}
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
@@ -271,3 +275,54 @@ nav{
         margin-top: 25px;
     }
 }
+    .rivers{
+        display: grid;
+        grid-template-columns: 300px auto 300px;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+        gap: 1em;
+        padding: 1em;
+        background-color: #219BBC;
+        max-width:90%;
+        margin: auto;
+
+    }
+
+    .salmonimg{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .salmonriver{
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+
+    .greenimg{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .greenriver{
+        grid-column: 2/3;
+        grid-row: 3/6;
+    }
+
+    .grandimg{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .grandcanyon{
+        grid-column: 2/3;
+        grid-row: 5/8;
+    }
+
+    .river1img{
+        grid-column: 3/4;
+        grid-row: 4/5;
+    } 
+
+    .river2img{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }

@@ -1,3 +1,62 @@
 img{
     max-width: 65%;
 }
+
+
+.rivers{
+    background-color: #219BBC;
+    margin: 1em;
+}
+
+.greenriver img{
+    width: 20%;
+    float: right;
+    margin-right: 1em;
+    margin-left:1em;
+}
+
+.greenriver h3{
+    text-align: right;
+    margin-right: 4em;
+    margin-bottom:0 auto;
+}
+
+.greenriver p{
+    font-size: .9em;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.salmonriver img{
+    width: 20%;
+    float: left;
+    padding-right: 1em;
+    padding-left:1em;
+}
+
+.salmonriver h3{
+    margin-left: 4em;
+}
+
+.salmonriver p{
+    margin-right: 1em;
+    font-size: .9em;
+    text-align: center;
+}
+
+.grandcanyon img{
+    width: 20%;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.grandcanyon h3{
+    margin-left: 4em;
+}
+
+.grandcanyon p{
+    font-size: .9em;
+    margin-right: 1em;
+    text-align:center;
+}
