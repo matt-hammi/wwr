@@ -42,6 +42,7 @@ main section{
 header{
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #FF6666;
 }
 
 nav a:hover{
@@ -284,12 +285,16 @@ nav{
         background-color: #219BBC;
         max-width:90%;
         margin: auto;
+        margin-top: 1em;
 
     }
 
     .salmonimg{
         grid-column: 1/2;
         grid-row: 1/2;
+        padding: 5px;
+        background-color: white;
+        transform: rotate(-4deg);
     }
 
     .salmonriver{
@@ -300,6 +305,9 @@ nav{
     .greenimg{
         grid-column: 3/4;
         grid-row: 2/3;
+        padding: 5px;
+        background-color: white;
+        transform: rotate(4deg);
     }
 
     .greenriver{
@@ -310,6 +318,9 @@ nav{
     .grandimg{
         grid-column: 1/2;
         grid-row: 3/4;
+        padding: 5px;
+        background-color: white;
+        transform: rotate(-4deg);
     }
 
     .grandcanyon{
@@ -320,9 +331,15 @@ nav{
     .river1img{
         grid-column: 3/4;
         grid-row: 4/5;
+        padding: 5px;
+        background-color: white;
+        transform: rotate(4deg);
     } 
 
     .river2img{
         grid-column: 1/2;
         grid-row: 5/6;
+        padding: 5px;
+        background-color: white;
+        transform: rotate(-4deg);
     }
